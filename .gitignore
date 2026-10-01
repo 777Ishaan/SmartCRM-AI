@@ -1,0 +1,62 @@
+# ==============================
+# Frontend - React / Vite
+# ==============================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ==============================
+# Backend - Java / Spring Boot
+# ==============================
+
+backend/target/
+
+# Environment variables / secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+
+# ==============================
+# Uploaded files
+# ==============================
+
+backend/uploads/
+
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+*.iml
+
+# ==============================
+# OS
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+
+# ==============================
+# Java
+# ==============================
+
+*.class
+node_modules
